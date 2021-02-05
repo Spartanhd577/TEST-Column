@@ -1,4 +1,3 @@
-import re
 from flask import Flask, render_template, request,  redirect  ,url_for, flash
 from flask_mysqldb import MySQL
 
@@ -12,7 +11,7 @@ app.config['MYSQL_DB'] = 'flaskemployees'
 mysql = MySQL(app)
 
 
-# settings
+# settings  
 app.secret_key = 'mysecretkey'
 
 @app.route('/')
