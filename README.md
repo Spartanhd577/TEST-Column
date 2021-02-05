@@ -41,7 +41,7 @@ Es necesario que los datos sean validados según el tipo del que sean.
 
 
 
-####  Requisitos e entruciones de como arrancar el proyecto
+####  Requisitos e instrucciones de como arrancar el proyecto
 
 - Python3
 - Flask
