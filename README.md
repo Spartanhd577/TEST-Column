@@ -38,3 +38,19 @@ Crear un API simple con los siguientes endpoints:
 Crear el API también implica crear la base de datos con los campos listados más arriba. Es responsabilidad del desarrollador crearla adecuadamente y con el tipo de datos correcto.
 
 Es necesario que los datos sean validados según el tipo del que sean.
+
+
+
+####  Requisitos e entruciones de como arrancar el proyecto
+
+- Python3
+- Flask
+- MySQL
+
+Primero debemos contar con Python para poder instalar estos 2 modulos para luego instalar 2 modulos para poder correr nuestro proyecto sin errores el primero es Flask y el segundo Flask-MySQLDB usando pip install flask flask-MySQLDB  o  py -m pip install flask flask-MySQLDB.
+
+Segundo es necesario correr el proyecto App.py de Python en la terminal para que pueda ejecutarse los componetes y sus metodos.
+
+Contar con una base de datos MySql llamada Flaskemployees con tabla llamada employees sin contraseña con los campos  id, Fullname, Phone, Email.
+
+Luego que contamos con todo los requisitos y no ahi ningun problema en la terminar de debug podemos entrar al App web usando http://localhost:3000.
